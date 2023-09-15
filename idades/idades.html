@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+        <section>
+            <div id="form">
+                <div>
+                    Data de Nascimento: <input type="number" name="txtano" id="txtano" min="0">
+                </div>
+                <div>
+                    Sexo: <input type="radio" name="sexo" id="M">
+                    <label for="M">Masculino</label>
+                    <input type="radio" name="sexo" id="F">
+                    <label for="F">Feminino</label>
+                </div>
+                <div>
+                    <input type="button" value="Verificar" onclick="verificar()">
+                </div>
+            </div>
+            <div id="res">
+                Preencha os Dados acima para ver o resultado
+            </div>
+        </section>
+        <footer>
+            <p>Esse site foi criado por Vinícius Suares</p>
+        </footer>
+        <a href="../horarios/horario.html">Clique aqui pra voltar a primeira página</a>
+        <script src="script.js"></script>
+</body>
+</html>
